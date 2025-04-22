@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: korean-spellcheck
+Bundle-SymbolicName: korean-spellcheck;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.eclipse.core.runtime;bundle-version="3.31.100",
+ org.eclipse.ui.workbench.texteditor;bundle-version="3.18.0",
+ org.eclipse.text;bundle-version="3.14.100",
+ org.eclipse.core.resources;bundle-version="3.21.0",
+ org.eclipse.jface.text;bundle-version="3.25.200",
+ org.eclipse.core.commands,
+ org.eclipse.jface,
+ org.eclipse.ui.ide;bundle-version="3.22.300"
+Automatic-Module-Name: korean-spellcheck
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
